@@ -1,0 +1,424 @@
+﻿ASide:
+  - Room: "00- intro"
+    CelesteRandomizerHelper: true
+    Subrooms:
+      - Room: "up_0"
+        Holes:
+          - Side: Up
+            Idx: 0
+            Kind: none
+      - Room: "up_1"
+        Holes:
+          - Side: Up
+            Idx: 1
+            Kind: none
+      - Room: "down_0"
+        Holes:
+          - Side: Down
+            Idx: 0
+            Kind: none
+      - Room: "left_0"
+        Holes:
+          - Side: Left
+            Idx: 0
+            Kind: out
+      - Room: "right_0"
+        Holes:
+          - Side: Right
+            Idx: 0
+            Kind: inout
+        InternalEdges:
+          - To: "left_0"
+            ReqOut:
+              Difficulty: easy
+              Or:
+                - Dashes: one
+                  Difficulty: normal
+    InternalEdges:
+      - To: "right_0"
+        ReqOut:
+          Difficulty: easy
+          Or:
+            - Dashes: zero
+              Difficulty: easy
+  - Room: "01- Crusher"
+    CelesteRandomizerHelper: true
+    Subrooms:
+      - Room: "up_0"
+        Holes:
+          - Side: Up
+            Idx: 0
+            Kind: none
+      - Room: "down_0"
+        Holes:
+          - Side: Down
+            Idx: 0
+            Kind: none
+      - Room: "down_1"
+        Holes:
+          - Side: Down
+            Idx: 1
+            Kind: none
+      - Room: "left_0"
+        Holes:
+          - Side: Left
+            Idx: 0
+            Kind: out
+      - Room: "right_0"
+        Holes:
+          - Side: Right
+            Idx: 0
+            Kind: inout
+        InternalEdges:
+          - To: "left_0"
+            ReqOut:
+              Difficulty: easy
+              Or:
+                - Dashes: one
+                  Difficulty: normal
+    InternalEdges:
+      - To: "right_0"
+        ReqOut:
+          Difficulty: easy
+          Or:
+            - Dashes: zero
+              Difficulty: easy
+  - Room: "\"02- Bait N Switch\""
+    CelesteRandomizerHelper: true
+    Subrooms:
+      - Room: "up_0"
+        Holes:
+          - Side: Up
+            Idx: 0
+            Kind: out
+      - Room: "up_1"
+        Holes:
+          - Side: Up
+            Idx: 1
+            Kind: none
+      - Room: "down_0"
+        Holes:
+          - Side: Down
+            Idx: 0
+            Kind: none
+      - Room: "down_1"
+        Holes:
+          - Side: Down
+            Idx: 1
+            Kind: none
+      - Room: "left_0"
+        Holes:
+          - Side: Left
+            Idx: 0
+            Kind: out
+      - Room: "right_0"
+        Holes:
+          - Side: Right
+            Idx: 0
+            Kind: inout
+        InternalEdges:
+          - To: "up_0"
+            ReqOut:
+              Difficulty: easy
+              Or:
+                - Dashes: one
+                  Difficulty: normal
+          - To: "left_0"
+            ReqOut:
+              Difficulty: easy
+              Or:
+                - Dashes: one
+                  Difficulty: normal
+    InternalEdges:
+      - To: "right_0"
+        ReqOut:
+          Difficulty: easy
+          Or:
+            - Dashes: zero
+              Difficulty: easy
+  - Room: "03- Uberjump"
+    CelesteRandomizerHelper: true
+    Subrooms:
+      - Room: "up_0"
+        Holes:
+          - Side: Up
+            Idx: 0
+            Kind: none
+      - Room: "down_0"
+        Holes:
+          - Side: Down
+            Idx: 0
+            Kind: none
+      - Room: "down_1"
+        Holes:
+          - Side: Down
+            Idx: 1
+            Kind: none
+      - Room: "left_0"
+        Holes:
+          - Side: Left
+            Idx: 0
+            Kind: out
+      - Room: "right_0"
+        Holes:
+          - Side: Right
+            Idx: 0
+            Kind: inout
+        InternalEdges:
+          - To: "left_0"
+            ReqOut:
+              Difficulty: easy
+              Or:
+                - Dashes: one
+                  Difficulty: normal
+    InternalEdges:
+      - To: "right_0"
+        ReqOut:
+          Difficulty: easy
+          Or:
+            - Dashes: zero
+              Difficulty: easy
+  - Room: "04- Head Trauma"
+    CelesteRandomizerHelper: true
+    Subrooms:
+      - Room: "up_0"
+        Holes:
+          - Side: Up
+            Idx: 0
+            Kind: none
+      - Room: "up_1"
+        Holes:
+          - Side: Up
+            Idx: 1
+            Kind: none
+      - Room: "down_0"
+        Holes:
+          - Side: Down
+            Idx: 0
+            Kind: none
+      - Room: "left_0"
+        Holes:
+          - Side: Left
+            Idx: 0
+            Kind: out
+      - Room: "right_0"
+        Holes:
+          - Side: Right
+            Idx: 0
+            Kind: inout
+        InternalEdges:
+          - To: "left_0"
+            ReqOut:
+              Difficulty: easy
+              Or:
+                - Dashes: one
+                  Difficulty: normal
+      - Room: "strawberry_0"
+        Collectables:
+          - Idx: 0
+    InternalEdges:
+      - To: "right_0"
+        ReqOut:
+          Difficulty: easy
+          Or:
+            - Dashes: zero
+              Difficulty: easy
+  - Room: "05- Boing"
+    CelesteRandomizerHelper: true
+    Subrooms:
+      - Room: "up_0"
+        Holes:
+          - Side: Up
+            Idx: 0
+            Kind: none
+      - Room: "down_0"
+        Holes:
+          - Side: Down
+            Idx: 0
+            Kind: none
+      - Room: "left_0"
+        Holes:
+          - Side: Left
+            Idx: 0
+            Kind: out
+      - Room: "right_0"
+        Holes:
+          - Side: Right
+            Idx: 0
+            Kind: inout
+        InternalEdges:
+          - To: "left_0"
+            ReqOut:
+              Difficulty: easy
+              Or:
+                - Dashes: one
+                  Difficulty: normal
+    InternalEdges:
+      - To: "right_0"
+        ReqOut:
+          Difficulty: easy
+          Or:
+            - Dashes: zero
+              Difficulty: easy
+  - Room: "06- Bubbles"
+    CelesteRandomizerHelper: true
+    Subrooms:
+      - Room: "up_0"
+        Holes:
+          - Side: Up
+            Idx: 0
+            Kind: none
+      - Room: "down_0"
+        Holes:
+          - Side: Down
+            Idx: 0
+            Kind: none
+      - Room: "down_1"
+        Holes:
+          - Side: Down
+            Idx: 1
+            Kind: none
+      - Room: "down_2"
+        Holes:
+          - Side: Down
+            Idx: 2
+            Kind: none
+      - Room: "left_0"
+        Holes:
+          - Side: Left
+            Idx: 0
+            Kind: out
+      - Room: "right_0"
+        Holes:
+          - Side: Right
+            Idx: 0
+            Kind: inout
+        InternalEdges:
+          - To: "left_0"
+            ReqOut:
+              Difficulty: easy
+              Or:
+                - Dashes: one
+                  Difficulty: normal
+    InternalEdges:
+      - To: "right_0"
+        ReqOut:
+          Difficulty: easy
+          Or:
+            - Dashes: zero
+              Difficulty: easy
+  - Room: "07- Falling Cannon"
+    CelesteRandomizerHelper: true
+    Subrooms:
+      - Room: "up_0"
+        Holes:
+          - Side: Up
+            Idx: 0
+            Kind: none
+      - Room: "up_1"
+        Holes:
+          - Side: Up
+            Idx: 1
+            Kind: out
+      - Room: "up_2"
+        Holes:
+          - Side: Up
+            Idx: 2
+            Kind: none
+      - Room: "down_0"
+        Holes:
+          - Side: Down
+            Idx: 0
+            Kind: none
+      - Room: "down_1"
+        Holes:
+          - Side: Down
+            Idx: 1
+            Kind: none
+      - Room: "down_2"
+        Holes:
+          - Side: Down
+            Idx: 2
+            Kind: none
+      - Room: "left_0"
+        Holes:
+          - Side: Left
+            Idx: 0
+            Kind: out
+      - Room: "right_0"
+        Holes:
+          - Side: Right
+            Idx: 0
+            Kind: inout
+        InternalEdges:
+          - To: "left_0"
+            ReqOut:
+              Difficulty: easy
+              Or:
+                - Dashes: one
+                  Difficulty: normal
+          - To: "up_1"
+            ReqOut:
+              Difficulty: easy
+              Or:
+                - Dashes: one
+                  Difficulty: normal
+    InternalEdges:
+      - To: "right_0"
+        ReqOut:
+          Difficulty: easy
+          Or:
+            - Dashes: zero
+              Difficulty: easy
+  - Room: "08- U Turn"
+    CelesteRandomizerHelper: true
+    Subrooms:
+      - Room: "up_0"
+        Holes:
+          - Side: Up
+            Idx: 0
+            Kind: out
+      - Room: "up_1"
+        Holes:
+          - Side: Up
+            Idx: 1
+            Kind: none
+      - Room: "down_0"
+        Holes:
+          - Side: Down
+            Idx: 0
+            Kind: none
+      - Room: "down_1"
+        Holes:
+          - Side: Down
+            Idx: 1
+            Kind: none
+      - Room: "down_2"
+        Holes:
+          - Side: Down
+            Idx: 2
+            Kind: none
+      - Room: "down_3"
+        Holes:
+          - Side: Down
+            Idx: 3
+            Kind: none
+      - Room: "right_0"
+        Holes:
+          - Side: Right
+            Idx: 0
+            Kind: in
+        InternalEdges:
+          - To: "up_0"
+            ReqOut:
+              Difficulty: easy
+              Or:
+                - Dashes: one
+                  Difficulty: normal
+    InternalEdges:
+      - To: "up_0"
+        ReqOut:
+          Difficulty: easy
+          Or:
+            - Dashes: one
+              Difficulty: normal

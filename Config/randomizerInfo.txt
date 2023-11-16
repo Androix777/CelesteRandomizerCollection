@@ -15,8 +15,10 @@ StrawberryJam2021\1-Beginner\skeleton.rando.yaml,Treehive,424541
 StrawberryJam2021\1-Beginner\snas.rando.yaml,The Squeeze,424541
 StrawberryJam2021\1-Beginner\ZZ-HeartSide.rando.yaml,Blueberry Bay,424541
 StrawberryJam2021\2-Intermediate\marlin.rando.yaml,Low-G Botany,424541
+
 Rifs\dawn\dawn.rando.yaml,A New Dawn,397325
 Nyan\Feb28\Feb28.rando.yaml,Backroom Freezer,414102
 CosmicSand\banana23\Piss Desert.rando.yaml,Cosmic Sands,366606
 citycontest22\Banana23\yourmap23.rando.yaml,A Picturesque City,408648
 coffe\Shade World\ShadeWorld.rando.yaml,Shade World,150738
+Lioce\Backward Bubble\Backward Bubble.rando.yaml,Backward Bubble,409768

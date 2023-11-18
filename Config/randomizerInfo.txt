@@ -22,3 +22,5 @@ Cosmic Sands,CosmicSand\banana23\Piss Desert.rando.yaml,Cosmic Sands,366606
 artsy city,citycontest22\Banana23\yourmap23.rando.yaml,A Picturesque City,408648
 Shade World,coffe\Shade World\ShadeWorld.rando.yaml,Shade World,150738
 LioceMap,Lioce\Backward Bubble\Backward Bubble.rando.yaml,Backward Bubble,409768
+binary,AliceQuasar\Binary\1-Light.rando.yaml,Light,361923
+binary,AliceQuasar\Binary\2-Absence.rando.yaml,Absence,361923

@@ -16,6 +16,8 @@ StrawberryJam2021,StrawberryJam2021\1-Beginner\snas.rando.yaml,The Squeeze,42454
 StrawberryJam2021,StrawberryJam2021\1-Beginner\ZZ-HeartSide.rando.yaml,Blueberry Bay,424541
 StrawberryJam2021,StrawberryJam2021\2-Intermediate\marlin.rando.yaml,Low-G Botany,424541
 
+VanillaContest2023,VanillaContest2023\1-Submissions\Flagpole1up.rando.yaml,Whisperwood Ruins,478257
+
 ANewDawn,Rifs\dawn\dawn.rando.yaml,A New Dawn,397325
 Feb28,Nyan\Feb28\Feb28.rando.yaml,Backroom Freezer,414102
 Cosmic Sands,CosmicSand\banana23\Piss Desert.rando.yaml,Cosmic Sands,366606

@@ -6,7 +6,14 @@
         Holes:
           - Side: Up
             Idx: 0
-            Kind: out
+            Kind: inout
+        InternalEdges:
+          - To: "left_0"
+            ReqOut:
+              Difficulty: easy
+              Or:
+                - Dashes: zero
+                  Difficulty: normal
       - Room: "down_0"
         Holes:
           - Side: Down
@@ -29,6 +36,18 @@
               Or:
                 - Dashes: one
                   Difficulty: normal
+    Tweaks:
+      - Name: spawn
+        Update:
+          Add: true
+          X: 488
+          Y: 32
+      - Name: jumpThru
+        Update:
+          Add: true
+          X: 472
+          Y: 24
+          Width: 24
     Core:
       All: hot
     InternalEdges:
@@ -45,7 +64,7 @@
         Holes:
           - Side: Down
             Idx: 0
-            Kind: in
+            Kind: inout
         InternalEdges:
           - To: "right_0"
             ReqOut:
@@ -57,7 +76,18 @@
         Holes:
           - Side: Right
             Idx: 0
-            Kind: out
+            Kind: inout
+        InternalEdges:
+          - To: "down_0"
+            ReqOut:
+              Difficulty: easy
+              Or:
+                - Dashes: one
+                  Difficulty: hard
+    Tweaks:
+      - ID: 198
+        Update:
+          Width: 24
     Core:
       All: hot
     InternalEdges:
@@ -101,7 +131,14 @@
         Holes:
           - Side: Right
             Idx: 0
-            Kind: out
+            Kind: inout
+        InternalEdges:
+          - To: "left_0"
+            ReqOut:
+              Difficulty: easy
+              Or:
+                - Dashes: one
+                  Difficulty: hard
     Core:
       All: hot
     InternalEdges:
@@ -145,7 +182,14 @@
         Holes:
           - Side: Right
             Idx: 0
-            Kind: out
+            Kind: inout
+        InternalEdges:
+          - To: "left_0"
+            ReqOut:
+              Difficulty: easy
+              Or:
+                - Dashes: one
+                  Difficulty: normal
     Core:
       All: hot
     InternalEdges:
@@ -194,7 +238,16 @@
         Holes:
           - Side: Right
             Idx: 0
-            Kind: out
+            Kind: inout
+        InternalEdges:
+          - To: "left_0"
+            ReqOut:
+              Difficulty: easy
+              Or:
+                - Dashes: one
+                  Difficulty: master
+                - Dashes: two
+                  Difficulty: normal
     Core:
       All: hot
     InternalEdges:
@@ -233,7 +286,16 @@
         Holes:
           - Side: Right
             Idx: 0
-            Kind: out
+            Kind: inout
+        InternalEdges:
+          - To: "left_0"
+            ReqOut:
+              Difficulty: easy
+              Or:
+                - Dashes: zero
+                  Difficulty: master
+                - Dashes: one
+                  Difficulty: normal
     Core:
       All: hot
     InternalEdges:
@@ -278,7 +340,24 @@
         Holes:
           - Side: Right
             Idx: 0
-            Kind: out
+            Kind: inout
+        InternalEdges:
+          - To: "left_1"
+            ReqOut:
+              Difficulty: easy
+              Or:
+                - Dashes: one
+                  Difficulty: expert
+                - Dashes: two
+                  Difficulty: normal
+          - To: "left_0"
+            ReqOut:
+              Difficulty: easy
+              Or:
+                - Dashes: one
+                  Difficulty: expert
+                - Dashes: two
+                  Difficulty: normal
     Core:
       All: hot
     InternalEdges:
@@ -300,7 +379,14 @@
         Holes:
           - Side: Up
             Idx: 1
-            Kind: out
+            Kind: inout
+        InternalEdges:
+          - To: "left_0"
+            ReqOut:
+              Difficulty: easy
+              Or:
+                - Dashes: two
+                  Difficulty: normal
       - Room: "down_0"
         Holes:
           - Side: Down
@@ -318,6 +404,18 @@
               Or:
                 - Dashes: one
                   Difficulty: normal
+    Tweaks:
+      - Name: spawn
+        Update:
+          Add: true
+          X: 448
+          Y: 24
+      - Name: jumpThru
+        Update:
+          Add: true
+          X: 432
+          Y: 24
+          Width: 24
     Core:
       All: hot
     InternalEdges:
@@ -339,7 +437,7 @@
         Holes:
           - Side: Down
             Idx: 0
-            Kind: in
+            Kind: inout
         InternalEdges:
           - To: "right_0"
             ReqOut:
@@ -351,7 +449,18 @@
         Holes:
           - Side: Right
             Idx: 0
-            Kind: out
+            Kind: inout
+        InternalEdges:
+          - To: "down_0"
+            ReqOut:
+              Difficulty: easy
+              Or:
+                - Dashes: one
+                  Difficulty: hard
+    Tweaks:
+      - ID: 3
+        Update:
+          Width: 40
     Core:
       All: hot
     InternalEdges:
@@ -388,7 +497,7 @@
         Holes:
           - Side: Left
             Idx: 0
-            Kind: in
+            Kind: inout
         InternalEdges:
           - To: "right_0"
             ReqOut:
@@ -400,7 +509,14 @@
         Holes:
           - Side: Right
             Idx: 0
-            Kind: out
+            Kind: inout
+        InternalEdges:
+          - To: "left_0"
+            ReqOut:
+              Difficulty: easy
+              Or:
+                - Dashes: one
+                  Difficulty: expert
       - Room: "strawberry_0"
         Collectables:
           - Idx: 0
@@ -445,7 +561,14 @@
         Holes:
           - Side: Right
             Idx: 0
-            Kind: out
+            Kind: inout
+        InternalEdges:
+          - To: "left_0"
+            ReqOut:
+              Difficulty: easy
+              Or:
+                - Dashes: two
+                  Difficulty: expert
     Core:
       All: hot
     InternalEdges:
@@ -462,7 +585,22 @@
         Holes:
           - Side: Up
             Idx: 0
-            Kind: out
+            Kind: inout
+        InternalEdges:
+          - To: "right_0"
+            ReqOut:
+              Difficulty: easy
+              Or:
+                - Dashes: zero
+                  Difficulty: master
+                - Dashes: one
+                  Difficulty: normal
+          - To: "left_0"
+            ReqOut:
+              Difficulty: easy
+              Or:
+                - Dashes: one
+                  Difficulty: hard
       - Room: "down_0"
         Holes:
           - Side: Down
@@ -490,7 +628,26 @@
         Holes:
           - Side: Right
             Idx: 0
-            Kind: out
+            Kind: inout
+        InternalEdges:
+          - To: "up_0"
+            ReqOut:
+              Difficulty: easy
+              Or:
+                - Dashes: zero
+                  Difficulty: master
+                - Dashes: one
+                  Difficulty: normal
+          - To: "left_0"
+            ReqOut:
+              Difficulty: easy
+              Or:
+                - Dashes: one
+                  Difficulty: hard
+    Tweaks:
+      - ID: 1976
+        Update:
+          Width: 16
     Core:
       All: hot
     InternalEdges:
@@ -534,7 +691,14 @@
         Holes:
           - Side: Right
             Idx: 0
-            Kind: out
+            Kind: inout
+        InternalEdges:
+          - To: "left_0"
+            ReqOut:
+              Difficulty: easy
+              Or:
+                - Dashes: one
+                  Difficulty: expert
     Core:
       All: hot
     InternalEdges:
@@ -588,7 +752,14 @@
         Holes:
           - Side: Right
             Idx: 0
-            Kind: out
+            Kind: inout
+        InternalEdges:
+          - To: "left_0"
+            ReqOut:
+              Difficulty: easy
+              Or:
+                - Dashes: two
+                  Difficulty: master
     Core:
       All: hot
     InternalEdges:
@@ -627,7 +798,14 @@
         Holes:
           - Side: Right
             Idx: 0
-            Kind: out
+            Kind: inout
+        InternalEdges:
+          - To: "left_0"
+            ReqOut:
+              Difficulty: easy
+              Or:
+                - Dashes: zero
+                  Difficulty: normal
     Core:
       All: hot
     InternalEdges:

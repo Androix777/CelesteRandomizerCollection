@@ -14,6 +14,7 @@ StrawberryJam2021,StrawberryJam2021\1-Beginner\Quinnigan.rando.yaml,Rose Garden,
 StrawberryJam2021,StrawberryJam2021\1-Beginner\skeleton.rando.yaml,Treehive,424541
 StrawberryJam2021,StrawberryJam2021\1-Beginner\snas.rando.yaml,The Squeeze,424541
 StrawberryJam2021,StrawberryJam2021\1-Beginner\ZZ-HeartSide.rando.yaml,Blueberry Bay,424541
+StrawberryJam2021,StrawberryJam2021\1-Beginner\NotYourBadeline.rando.yaml,Seeing is Believing,424541
 StrawberryJam2021,StrawberryJam2021\2-Intermediate\marlin.rando.yaml,Low-G Botany,424541
 
 VanillaContest2023,VanillaContest2023\1-Submissions\Flagpole1up.rando.yaml,Whisperwood Ruins,478257

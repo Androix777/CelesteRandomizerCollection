@@ -1365,11 +1365,6 @@ ASide:
           - Side: Down
             Idx: 3
             Kind: none
-      - Room: "down_4"
-        Holes:
-          - Side: Down
-            Idx: 4
-            Kind: none
       - Room: "left_0"
         Holes:
           - Side: Left
